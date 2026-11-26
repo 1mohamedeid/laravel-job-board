@@ -9,7 +9,8 @@ class Job
         return[
             ['title' => 'SoftWare Engineer', 'salary' => '$3000'],
             ['title' => 'IT Engineer', 'salary' => '$2000'],
-            ['title' => 'Software Testing', 'salary' => '$1000']
+            ['title' => 'Software Testing', 'salary' => '$1000'],
+            ['title' => 'AI Learning' , 'salary' => '$4000']
         ];
     }
 }
