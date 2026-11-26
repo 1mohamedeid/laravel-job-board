@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class IndexConrtoller extends Controller
+{
+    function index(){
+         return view('index');
+    }
+    function about(){
+        return view('about', ['pageTitle' => 'Abot Page']);
+    }
+    function contact(){
+        return view('contact', ['pageTitle' => 'Contact Page']);
+    }
+}
